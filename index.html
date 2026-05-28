@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legal – Habit Chain</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f5f7fa;
+      color: #1a1a2e;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 480px;
+      width: 100%;
+      background: #fff;
+      border-radius: 16px;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 4px 24px rgba(0,0,0,.07);
+      text-align: center;
+    }
+
+    .brand-name {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #208AEF;
+      letter-spacing: -.3px;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -.4px;
+      margin-bottom: .5rem;
+    }
+
+    p {
+      font-size: .93rem;
+      color: #64748b;
+      margin-bottom: 2.5rem;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: .75rem;
+    }
+
+    a.card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      text-decoration: none;
+      color: #0f172a;
+      transition: border-color .15s, box-shadow .15s;
+    }
+
+    a.card:hover {
+      border-color: #208AEF;
+      box-shadow: 0 0 0 3px rgba(32,138,239,.1);
+    }
+
+    .icon {
+      width: 40px;
+      height: 40px;
+      background: #eff8ff;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .icon svg {
+      width: 20px;
+      height: 20px;
+      stroke: #208AEF;
+      fill: none;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .card-text { text-align: left; }
+
+    .card-title {
+      font-size: .97rem;
+      font-weight: 600;
+      color: #0f172a;
+      margin-bottom: .15rem;
+    }
+
+    .card-desc {
+      font-size: .82rem;
+      color: #64748b;
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      font-size: .78rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand-name">Habit Chain</div>
+
+    <h1>Legal</h1>
+    <p>Read our policies to understand how we handle your data and the terms that govern your use of the app.</p>
+
+    <div class="links">
+      <a class="card" href="terms-of-use.html">
+        <div class="icon">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <div class="card-text">
+          <div class="card-title">Terms of Use</div>
+          <div class="card-desc">Rules and conditions for using Habit Chain</div>
+        </div>
+      </a>
+
+      <a class="card" href="privacy-policy.html">
+        <div class="icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="card-text">
+          <div class="card-title">Privacy Policy</div>
+          <div class="card-desc">How we collect, use, and protect your data</div>
+        </div>
+      </a>
+    </div>
+
+    <footer>&copy; 2026 Enes Yurtsever &nbsp;·&nbsp; Habit Chain</footer>
+  </div>
+</body>
+</html>
